@@ -1,0 +1,87 @@
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+li,
+textarea,
+input,
+button,
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.2rem;
+  line-height: 5.1rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}

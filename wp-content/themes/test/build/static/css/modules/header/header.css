@@ -1,0 +1,51 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.header > .container {
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.header__logo {
+  color: #FFFFFF;
+}
+
+.header__burger {
+  height: 0.7rem;
+  width: 2.4rem;
+  position: relative;
+}
+
+.header__burger::before,
+.header__burger::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  background: #FFFFFF;
+}
+
+.header__burger::before {
+  top: 0;
+  width: 2.4rem;
+  height: 0.2rem;
+}
+
+.header__burger::after {
+  bottom: 0;
+  width: 1.6rem;
+  height: 0.2rem;
+}

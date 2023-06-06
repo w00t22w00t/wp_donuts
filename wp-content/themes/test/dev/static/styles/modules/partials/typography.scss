@@ -1,0 +1,51 @@
+@import '../../core.scss';
+
+h1, h2, h3, h4, h5,
+p, div, li,
+textarea, input, button,
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 128%;
+  color: #000000;
+}
+
+p, div, li {
+  @include minw( $sm-pc ) {
+    // font-size: 1.6rem;
+  }
+}
+
+h1 {
+  // font-family: 'Rubik', sans-serif;
+  // font-family: 'Unbounded', cursive;
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.2rem;
+  line-height: 5.1rem;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+
+  &:visited {
+    color: inherit;
+  }
+}

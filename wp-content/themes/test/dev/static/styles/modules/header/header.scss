@@ -1,0 +1,48 @@
+@import '../../core.scss';
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+
+  & > .container {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  &__logo {
+    color: #FFFFFF;
+  }
+
+  &__burger {
+    height: 0.7rem;
+    width: 2.4rem;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      background: #FFFFFF;
+
+    }
+
+    &::before {
+      top: 0;
+      width: 2.4rem;
+      height: 0.2rem;
+    }
+
+    &::after {
+      bottom: 0;
+      width: 1.6rem;
+      height: 0.2rem;
+    }
+  }
+}
